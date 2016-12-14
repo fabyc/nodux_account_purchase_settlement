@@ -1,0 +1,349 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:account.liquidation.tax:"
+msgid ""
+"You can not add line \"%(line)s\" to liquidation \"%(liquidation)s\" because"
+" it is posted, paid or canceled."
+msgstr ""
+"No puede agregar la linea \"%(line)s\" a la liquidación \"%(liquidation)s\" "
+"porque está contabilizada, pagada o cancelada."
+
+msgctxt "error:account.liquidation.tax:"
+msgid ""
+"You can not create liquidation \"%(liquidation)s\" on company "
+"\"%(liquidation_company)s\" using account \"%(account)s\" from company "
+"\"%(account_company)s\"."
+msgstr ""
+"No puede crear la liquidación \"%(liquidation)s\" en empresa "
+"\"%(liquidation_company)s\" usando el código \"%(account)s\" de la empresa "
+"\"%(account_company)s\"."
+
+msgctxt "error:account.liquidation.tax:"
+msgid ""
+"You can not create liquidation \"%(liquidation)s\" on company "
+"\"%(liquidation_company)s\" using base tax code \"%(base_code)s\" from "
+"company \"%(base_code_company)s\"."
+msgstr ""
+
+msgctxt "error:account.liquidation.tax:"
+msgid ""
+"You can not create liquidation \"%(liquidation)s\" on company "
+"\"%(liquidation_company)s\" using tax code \"%(tax_code)s\" from company "
+"\"%(tax_code_company)s\"."
+msgstr ""
+"No puede crear la liquidación \"%(liquidation)s\" en empresa "
+"\"%(liquidation_company)s\" usando el código \"%(tax_code)s\" de la empresa "
+"\"%(tax_code_company)s\"."
+
+msgctxt "error:account.liquidation.tax:"
+msgid ""
+"You can not modify tax \"%(tax)s\" from liquidation \"%(liquidation)s\" "
+"because it is posted or paid."
+msgstr ""
+"No puede modificar el impuesto \"%(tax)s\" de la liquidación "
+"\"%(liquidation)s\" porque está contabilizada o pagada."
+
+msgctxt "error:account.liquidation:"
+msgid ""
+"There is no liquidation sequence for liquidation \"%(liquidation)s\" on the "
+"period/fiscal year \"%(period)s\"."
+msgstr ""
+"No hay secuencia de liquidación para la liquidación \"%s(liquidation)s\" en "
+"el período/año fiscal \"%(period)s\""
+
+msgctxt "error:account.liquidation:"
+msgid "You can not delete a liquidation that is posted!"
+msgstr "No puede eliminar una liquidación que está contabilizada."
+
+msgctxt "field:account.fiscalyear,out_liquidation_sequence:"
+msgid "Purchase Liquidation Sequence"
+msgstr "Secuencia de Liquidación de Compra"
+
+msgctxt "field:account.liquidation,account:"
+msgid "Account"
+msgstr "Financiero"
+
+msgctxt "field:account.liquidation,accounting_date:"
+msgid "Accounting Date"
+msgstr "Fecha efectiva de asiento"
+
+msgctxt "field:account.liquidation,comment:"
+msgid "Comment"
+msgstr "Observaciones"
+
+msgctxt "field:account.liquidation,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:account.liquidation,create_date:"
+msgid "Create Date"
+msgstr "Fecha de Creación"
+
+msgctxt "field:account.liquidation,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:account.liquidation,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:account.liquidation,currency_date:"
+msgid "Currency Date"
+msgstr "Fecha de moneda"
+
+msgctxt "field:account.liquidation,currency_digits:"
+msgid "Currency Digits"
+msgstr "Decimales de Moneda"
+
+msgctxt "field:account.liquidation,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:account.liquidation,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:account.liquidation,journal:"
+msgid "Journal"
+msgstr "Libro Diario"
+
+msgctxt "field:account.liquidation,liquidation_address:"
+msgid "Liquidation Address"
+msgstr "Dirección de Liquidación"
+
+msgctxt "field:account.liquidation,liquidation_date:"
+msgid "Liquidation Date"
+msgstr "Fecha de Liquidación"
+
+msgctxt "field:account.liquidation,move:"
+msgid "Move"
+msgstr "Movimiento"
+
+msgctxt "field:account.liquidation,number:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "field:account.liquidation,party:"
+msgid "Party"
+msgstr "Terceros"
+
+msgctxt "field:account.liquidation,party_lang:"
+msgid "Party Language"
+msgstr "Idioma del Tercero"
+
+msgctxt "field:account.liquidation,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:account.liquidation,reference:"
+msgid "Reference"
+msgstr "Referencia"
+
+msgctxt "field:account.liquidation,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:account.liquidation,tax_amount:"
+msgid "Tax"
+msgstr "Impuesto"
+
+msgctxt "field:account.liquidation,taxes:"
+msgid "Tax Lines"
+msgstr "Líneas de impuestos"
+
+msgctxt "field:account.liquidation,total_amount:"
+msgid "Total liquidation"
+msgstr "Total liquidación"
+
+msgctxt "field:account.liquidation,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:account.liquidation,untaxed_amount:"
+msgid "Untaxed"
+msgstr "Base (sin impuestos)"
+
+msgctxt "field:account.liquidation,write_date:"
+msgid "Write Date"
+msgstr "Modificado por usuario"
+
+msgctxt "field:account.liquidation,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:account.liquidation.tax,account:"
+msgid "Account"
+msgstr "Financiero"
+
+msgctxt "field:account.liquidation.tax,amount:"
+msgid "Amount"
+msgstr "Valor"
+
+msgctxt "field:account.liquidation.tax,base:"
+msgid "Base"
+msgstr "Base"
+
+msgctxt "field:account.liquidation.tax,base_code:"
+msgid "Base Code"
+msgstr "Código de la base"
+
+msgctxt "field:account.liquidation.tax,base_sign:"
+msgid "Base Sign"
+msgstr "Signo de la base"
+
+msgctxt "field:account.liquidation.tax,create_date:"
+msgid "Create Date"
+msgstr "Fecha de Creación"
+
+msgctxt "field:account.liquidation.tax,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:account.liquidation.tax,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:account.liquidation.tax,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:account.liquidation.tax,liquidation:"
+msgid "liquidation"
+msgstr "Liquidación"
+
+msgctxt "field:account.liquidation.tax,manual:"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "field:account.liquidation.tax,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:account.liquidation.tax,sequence:"
+msgid "Sequence"
+msgstr "Secuencia"
+
+msgctxt "field:account.liquidation.tax,sequence_number:"
+msgid "Sequence Number"
+msgstr "Número de secuencia"
+
+msgctxt "field:account.liquidation.tax,tax:"
+msgid "Tax"
+msgstr "Impuesto"
+
+msgctxt "field:account.liquidation.tax,tax_code:"
+msgid "Tax Code"
+msgstr "Código de impuesto"
+
+msgctxt "field:account.liquidation.tax,tax_sign:"
+msgid "Tax Sign"
+msgstr "Signo del impuesto"
+
+msgctxt "field:account.liquidation.tax,tipo:"
+msgid "Tipo de retencion"
+msgstr "Tipo de retención"
+
+msgctxt "field:account.liquidation.tax,write_date:"
+msgid "Write Date"
+msgstr "Modificado por usuario"
+
+msgctxt "field:account.liquidation.tax,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:account.period,out_liquidation_sequence:"
+msgid "Purchase Liquidation Sequence"
+msgstr "Secuencia de Liquidación de Compras"
+
+msgctxt "model:account.liquidation,name:"
+msgid "Account Liquidation"
+msgstr "Cuenta de la Liquidación"
+
+msgctxt "model:account.liquidation.tax,name:"
+msgid "Account Liquidation Tax"
+msgstr "Impuesto de Liquidación de Compra"
+
+msgctxt "model:ir.action,name:act_liquidation_form"
+msgid "Purchase Liquidation"
+msgstr "Liquidación de Compra"
+
+msgctxt "model:ir.action,name:act_liquidation_out_liquidation_form"
+msgid "Purchase Liquidation"
+msgstr "Liquidación de Compras"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_liquidation_out_liquidation_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_liquidation_out_liquidation_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_liquidation_out_liquidation_domain_posted"
+msgid "Posted"
+msgstr "Contabilizado"
+
+msgctxt "model:ir.ui.menu,name:menu_liquidation_out_liquidation_form"
+msgid "Purchase Liquidation"
+msgstr "Liquidación de Compras"
+
+msgctxt "model:ir.ui.menu,name:menu_liquidations"
+msgid "Purchase Liquidation"
+msgstr "Liquidación de Compras"
+
+msgctxt "selection:account.liquidation,state:"
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgctxt "selection:account.liquidation,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:account.liquidation,state:"
+msgid "Posted"
+msgstr "Contabilizado"
+
+msgctxt "selection:account.liquidation,type:"
+msgid "Purchase Liquidation"
+msgstr "Liquidacion de Compra"
+
+msgctxt "view:account.liquidation.tax:"
+msgid "Liquidation Tax"
+msgstr "Impuestos Liquidación de Compra"
+
+msgctxt "view:account.liquidation.tax:"
+msgid "Purchase Liquidation Taxes"
+msgstr "Impuestos de Liquidación de Compras"
+
+msgctxt "view:account.liquidation.tax:"
+msgid "Tax Code"
+msgstr "Código de impuesto"
+
+msgctxt "view:account.liquidation.tax:"
+msgid "Taxes"
+msgstr "Impuestos"
+
+msgctxt "view:account.liquidation:"
+msgid "Liquidations"
+msgstr "Liquidaciones"
+
+msgctxt "view:account.liquidation:"
+msgid "Other Info"
+msgstr "Información Adicional"
+
+msgctxt "view:account.liquidation:"
+msgid "Purchase Liquidation"
+msgstr "Liquidación de Compra"
+
+msgctxt "view:account.liquidation:"
+msgid "_Confirm"
+msgstr "_Confirmar"
+
+msgctxt "view:account.liquidation:"
+msgid "_Post"
+msgstr "_Contabilizar"

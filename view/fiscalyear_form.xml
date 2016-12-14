@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+        expr="/form/notebook/page[@id='sequences']/field[@name='in_credit_note_sequence']"
+        position="after">
+        <newline/>
+        <label name="out_withholding_sequence"/>
+        <field name="out_withholding_sequence"/>
+    </xpath>
+</data>
